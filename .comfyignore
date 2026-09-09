@@ -1,0 +1,6 @@
+.github/
+tests/
+*.pyc
+__pycache__/
+.env
+credentials.json

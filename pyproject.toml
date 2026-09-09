@@ -1,0 +1,18 @@
+[project]
+name = "playbook-creative"
+version = "0.1.0"
+description = "Save ComfyUI renders straight to Playbook, and pull assets from your workspace back into the graph."
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests"]
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/playbook-labs/playbook-comfyui"
+Documentation = "https://docs.playbook.com"
+
+[tool.comfy]
+PublisherId = "playbook-creative"
+DisplayName = "Playbook"
+Icon = "https://raw.githubusercontent.com/playbook-labs/playbook-comfyui/main/icon.png"
